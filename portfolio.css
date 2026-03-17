@@ -32,3 +32,33 @@
 .nav-links a:hover {
   color: #e94560;
 }
+
+.hero {
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    padding: 30px;
+    width: 100%;
+}
+
+.aboutme {
+    flex: 1;
+    padding-right: 30px;     
+}
+
+.aboutme p {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.image {
+    flex-shrink: 0;
+
+}
+
+.image img {
+    max-width: 150px;        
+    height: auto;          
+    width: 100%;             
+    border-radius: 8px;      
+}
